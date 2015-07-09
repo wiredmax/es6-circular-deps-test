@@ -1,0 +1,17 @@
+{
+  "name": "es6-circular-deps-test",
+  "version": "0.0.1",
+  "description": "Test of circular dependencies issues handling with ES5 require versus ES6 imports with Babel.",
+  "repository": {
+    "type": "git",
+    "url": "wiredmax/es6-circular-deps-test"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Maxime Poulin <mpoulin@roux.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^5.6.16"
+  }
+}
